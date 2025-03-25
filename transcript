@@ -1,0 +1,126 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project my_project
+l
+# ambiguous command name "l": lappend lattice_edition layout left lindex linsert linux_edition list llength load log lrange lreplace lsearch lset lshift lsort lsublist ltTime lteTime
+# Compile of half_add_lab1.v was successful.
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+# Break key hit 
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do {C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do}
+# Cannot open macro file: C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do
+do {C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do}
+# Cannot open macro file: C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do
+do {C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do}
+# Cannot open macro file: C:/Users/nazar/OneDrive/ 01>G89 AB>;/Education/DC/lab3/Stim.do
+do C:/altera/91/modelsim_ase/examples/Stim.do
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run -all
+# Break key hit 
+run 100ns
+# Break key hit 
+quit -sim
+do C:/altera/91/modelsim_ase/examples/Stim.do
+# ** Error: (vish-4008) Object 'A' not found.
+# Error in macro C:\altera\91\modelsim_ase\examples\Stim.do line 1
+# ** Error: (vish-4008) Object 'A' not found.
+# 
+#     while executing
+# "force A 0 0ns, 0 20ns, 1 40ns, 1 60ns"
+do C:/altera/91/modelsim_ase/examples/Stim.do
+# ** Error: (vish-4008) Object 'A' not found.
+# Error in macro C:\altera\91\modelsim_ase\examples\Stim.do line 1
+# ** Error: (vish-4008) Object 'A' not found.
+# 
+#     while executing
+# "force A 0 0ns, 0 20ns, 1 40ns, 1 60ns"
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+do C:/altera/91/modelsim_ase/examples/Stim.do
+add wave sim:/half_add/*
+run 100ns
+# Break key hit 
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run -all
+run 20ns
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run 100ns
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run 100ns
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run 100ns
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run 100ns
+quit -sim
+# Compile of half_add_lab1.v was successful.
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+# Load canceled
+run 100ns
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/altera/91/modelsim_ase/examples/Stim.do
+run 100ns
+quit -sim
+git init
+# Initialized empty Git repository in C:/altera/91/modelsim_ase/examples/.git/
+git add.
+# git: 'add.' is not a git command. See 'git --help'.
+# 
+# The most similar command is
+# 	add
+git add .
+# fatal: detected dubious ownership in repository at 'C:/altera/91/modelsim_ase/examples'
+# 'C:/altera/91/modelsim_ase/examples' is owned by:
+# 	BUILTIN/Administrators (S-1-5-32-544)
+# but the current user is:
+# 	DESKTOP-1T1NHQS/nazar (S-1-5-21-3293697665-3910104696-122074485-1001)
+# To add an exception for this directory, call:
+# 
+# 	git config --global --add safe.directory C:/altera/91/modelsim_ase/examples
+git add half_add_lab1.v
+# fatal: detected dubious ownership in repository at 'C:/altera/91/modelsim_ase/examples'
+# 'C:/altera/91/modelsim_ase/examples' is owned by:
+# 	BUILTIN/Administrators (S-1-5-32-544)
+# but the current user is:
+# 	DESKTOP-1T1NHQS/nazar (S-1-5-21-3293697665-3910104696-122074485-1001)
+# To add an exception for this directory, call:
+# 
+# 	git config --global --add safe.directory C:/altera/91/modelsim_ase/examples
+git config --global --add safe.directory C:/altera/91/modelsim_ase/examples
